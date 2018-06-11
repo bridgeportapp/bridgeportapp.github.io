@@ -13,7 +13,7 @@ body
 {
 	position: initial;
 	display: inline-block;
-	background-image: url("hero.png");
+	background-image: url("hero2.jpg");
 	background size: 100% auto;
 	background-color: #ededed;
 	background-size: cover;
@@ -25,7 +25,8 @@ body
 	text-align: center;
 	line-height: 70vh;
 	user-select: none;
-	color: rgba(0,0,0,0.8);
+	/*color: rgba(0,0,0,0.8);*/
+	color: rgba(255,255,255,0.8);
 }
 
 #header
@@ -37,8 +38,8 @@ body
 	line-height: 30px;
 	background: rgba(255,255,255,0.5);
 	font-family: "Helvetica Neue Light", "Helvetica Light" ,sans-serif;
-	-webkit-backdrop-filter: blur(4px);
-	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 
 .header-main
@@ -84,7 +85,7 @@ body
 
 .dimmer
 {
-	color: #909090;
+	color: #a5a5a5;
 }
 
 #db-dl
@@ -94,17 +95,22 @@ body
 
 #db-title
 {
-	background: #404040;
-	border-radius: 3px;
-	padding: 4px;
+	background: #2c74e8;
+	border-radius: 8px;
+	padding: 8px;
 	transition: 0.1s all ease;
 	cursor: default;
 }
 
 #db-title:hover
 {
-	background: #505050;
-	border-radius: 8px;
+	background: #215dbc;
+	border-radius: 4px;
+}
+
+#db-title:active
+{
+	background: #184a99;
 }
 
 #limage
@@ -193,7 +199,12 @@ a
 	background: #4286f4;
 }
 
-
+.menuimage
+{
+	padding-top: 3px;
+	display: inline-block;
+	height: 18px;
+}
 
 
 
