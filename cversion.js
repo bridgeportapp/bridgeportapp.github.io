@@ -1,1 +1,1 @@
-var currentVersionServer = 99999999
+var currentVersionServer = 61718
